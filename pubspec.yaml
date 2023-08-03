@@ -1,0 +1,72 @@
+name: caco_cooking
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  #sdk: '>=2.19.3 <4.0.0'
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  retrofit: '>=4.0.0 <5.0.0'
+  retrofit_generator: 6.0.0+1
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  path_provider: ^2.0.13
+  firebase_core: ^2.8.0
+  get: ^4.1.4
+  cached_network_image: ^3.2.3
+  cloud_firestore: ^4.4.5
+  toggle_switch: ^2.0.1
+  dots_indicator: ^2.1.0
+  photo_view: ^0.14.0
+  json_serializable: ^6.6.1
+  json_annotation: ^4.8.0
+  dio: ^5.0.3
+  flutterfire_cli: ^0.2.7
+  firebase_app_check: ^0.1.1+13
+  firebase_core_desktop: ^1.0.2
+  firebase_auth: ^4.3.0
+  firebase_auth_web: ^5.2.10
+  firebase_messaging: ^14.3.0
+  firebase_core_platform_interface: ^4.5.3
+  firebase_storage: ^11.0.16
+  firebase_database: ^10.0.16
+  google_sign_in: ^6.0.2
+  flutter_local_notifications: ^13.0.0
+  intl: ^0.17.0
+  image_picker: ^0.8.7
+  palette_generator: ^0.3.3+2
+  shared_preferences: 2.0.18
+  fluttertoast: ^8.0.9
+  map_launcher: 2.5.0+1
+  flutter_lints: ^2.0.0
+  flutter_svg: ^2.0.2
+  flutter_staggered_grid_view: 0.6.2
+  sqflite: 2.2.5
+  simple_animations: 5.0.0+3
+  build_runner: 2.3.3
+  synchronized: 3.0.1
+  swipe_refresh: 1.0.2
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  #flutter_pay: 1.0.2
+  #flutter_gen: ^5.2.0
+
+#dev_dependencies:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/background.png
+    - assets/image/light-1.png
+    - assets/image/light-2.png
+    - assets/image/clock.png
+    - assets/image/google.png
+    - assets/language/
+
+executables:
+  hello:
