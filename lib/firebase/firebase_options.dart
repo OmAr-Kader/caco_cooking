@@ -62,7 +62,6 @@ const String CLIENT_SECRET_WEB = '';
 
 const String CLIENT_ID_ANDROID = '';
 
-
 String get FETCH_CLIENT_ID {
   if (kIsWeb) {
     return CLIENT_ID_WEB;

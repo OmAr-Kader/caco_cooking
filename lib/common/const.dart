@@ -22,8 +22,6 @@ const String NAME_ID = "name";
 const String FIELDS_USERS = "fields";
 const String USER_ID_GARBAGE = "projects/$PROJECT_ID/databases/(default)/documents/$COLLECTION_USER_DETAILS/";
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 const String SER_KEY = "";
 const String WEB_SERVICE_KEY = "";
 const String KEY_PAIR = "";
