@@ -27,7 +27,7 @@ class _ApiClient implements ApiClient {
     final queryParameters = <String, dynamic>{};
     final _headers = <String, dynamic>{
       r'Authorization':
-      'key=AAAAdIguxLg:APA91bGKpLwgnJePsZ2g5_kKQeIfJuBJNnuIg1uH7K38fG5BMKwlcBbMxqgNzh_u7O5FpaqUgqJ1asPKxz9DXOjaGB1_NjhJMfLFB7SygfJXSuuaKVKLQrNdcERB-HAza7Xim8kTvTRh',
+      'key=',
       r'Content-Type': 'application/json',
     };
     _headers.removeWhere((k, v) => v == null);

@@ -24,11 +24,9 @@ const String USER_ID_GARBAGE = "projects/$PROJECT_ID/databases/(default)/documen
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const String SER_KEY =
-    "AAAAdIguxLg:APA91bGKpLwgnJePsZ2g5_kKQeIfJuBJNnuIg1uH7K38fG5BMKwlcBbMxqgNzh_u7O5FpaqUgqJ1asPKxz9DXOjaGB1_NjhJMfLFB7SygfJXSuuaKVKLQrNdcERB-HAza7Xim8kTvTRh";
-
-const String WEB_SERVICE_KEY = "AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA";
-const String KEY_PAIR = "BP29lINtWZWOkg0ai1ISjl7frPE1x4qnFn0xkFBE6a3ZKTfc1ekX7bshGWEI2SkVt8CDKwCqkLSVJpj4BzYVhfs";
+const String SER_KEY = "";
+const String WEB_SERVICE_KEY = "";
+const String KEY_PAIR = "";
 
 const String SEND_FCM = "/fcm/send";
 const String PROJECT_ID = "caco-cooking";

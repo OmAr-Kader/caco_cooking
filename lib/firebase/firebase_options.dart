@@ -23,48 +23,45 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA',
-    appId: '1:500500972728:android:ff0ebceb6976402006204d',
-    messagingSenderId: '500500972728',
-    projectId: 'caco-cooking',
-    authDomain: 'caco-cooking.firebaseapp.com',
-    databaseURL: 'https://caco-cooking-default-rtdb.firebaseio.com',
-    storageBucket: 'caco-cooking.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    databaseURL: '',
+    storageBucket: '',
     androidClientId: CLIENT_ID_WEB,
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA',
-    appId: '1:500500972728:android:ff0ebceb6976402006204d',
-    messagingSenderId: '500500972728',
-    projectId: 'caco-cooking',
-    authDomain: 'caco-cooking.firebaseapp.com',
-    databaseURL: 'https://caco-cooking-default-rtdb.firebaseio.com',
-    storageBucket: 'caco-cooking.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    databaseURL: '',
+    storageBucket: '',
     androidClientId: CLIENT_ID_ANDROID,
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA',
-    appId: '1:500500972728:android:ff0ebceb6976402006204d',
-    messagingSenderId: '500500972728',
-    projectId: 'caco-cooking',
-    authDomain: 'caco-cooking.firebaseapp.com',
-    databaseURL: 'https://caco-cooking-default-rtdb.firebaseio.com',
-    storageBucket: 'caco-cooking.appspot.com',
-    iosClientId: '1045475764615-sh6bdtfvq5gi9hdi9elu247v7usqsvpl.apps.googleusercontent.com',
-    iosBundleId: 'com.mrezys',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    databaseURL: '',
+    storageBucket: '',
+    iosClientId: '',
+    iosBundleId: '',
   );
 }
 
-const String CLIENT_ID_WEB = '500500972728-pgjuors8fuahogne9f9qe6a9rb9kelrp.apps.googleusercontent.com';
-const String CLIENT_SECRET_WEB = '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';
-//AIzaSyCGC0Pz88R8KdtWBhXgGoZt5BWHxoR9Lxk
+const String CLIENT_ID_WEB = '';
+const String CLIENT_SECRET_WEB = '';
 
-//const String CLIENT_ID_ANDROID = '500500972728-4qde159q5ns9mou6v32sk2k4qhn5eiat.apps.googleusercontent.com';
-const String CLIENT_ID_ANDROID = '500500972728-8qrsk6h9m5gva6t0m7ajtsest12ohqsl.apps.googleusercontent.com';
-//const String CLIENT_ID_ANDROID = 'AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA.apps.googleusercontent.com';
-//AIzaSyA8GEDqzq85otlTSwsiodKE_YjGg8BVHWA
+const String CLIENT_ID_ANDROID = '';
+
 
 String get FETCH_CLIENT_ID {
   if (kIsWeb) {
