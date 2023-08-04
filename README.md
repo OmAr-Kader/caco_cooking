@@ -2,6 +2,10 @@
 # Coco Cooking
 
 Food delivery app developed by Flutter platform
+- Used the provider package for state management within the app
+- Worked with firebase at the back end of the project.
+- Used "Retrofit" for Firebase cloud messaging
+- Used 'GetX' for state management,  dependency injection, and route management
 
 ## 🔗 Links
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=Android%20Studio&logoColor=white)](https://developer.android.com/studio?gclid=EAIaIQobChMI1qTfxqPBgAMVloZoCR2AtArWEAAYASAAEgJ0IPD_BwE&gclsrc=aw.ds)
