@@ -1,6 +1,6 @@
 
 
-# Coco Cooking Demo
+# Caco Cooking Demo
 
 Caco Cooking is a food delivery application that connects restaurants with clients. It is developed in Flutter, a cross-platform framework that allows you to build native apps for Android and iOS from a single codebase. Caco Cooking uses Firebase as the backend service, Retrofit as the REST API client, and GetX and Provider as the state management, dependency injection, and route management solutions.
 
